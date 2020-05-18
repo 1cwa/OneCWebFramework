@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2125107c-8a49-4ff1-8d86-da447d1386e5">
+  <producedTypes>
+    <objectType typeId="a164e1f8-799e-4a22-a189-be367fbd2c84" valueTypeId="db0de0b6-bfff-4d17-8237-3a86ddf00b4b"/>
+    <refType typeId="f2c76073-3cce-4928-be8c-0803fe58113c" valueTypeId="c5a7bba6-e65d-4860-b024-96485cacb7d9"/>
+    <selectionType typeId="359f2277-c129-4a63-a802-01927501d4a1" valueTypeId="005caeed-f79c-464d-b33f-ba9db66039c4"/>
+    <listType typeId="a0b7d473-0e60-4329-828c-f6333c900325" valueTypeId="22489ca1-6942-44d5-9047-0500339ef324"/>
+    <managerType typeId="4a7e5659-5219-4be5-85f4-a48d2579556d" valueTypeId="df655f7a-0ed8-480a-9c1d-67586875a968"/>
+  </producedTypes>
+  <name>ВебСайт_Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователь веб-сайта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВебСайт_Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВебСайт_Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ab7c3132-ae9a-4446-bf63-8309a77d2abf">
+    <name>Логин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b41d5a6c-8d95-4104-a6ae-7ad61201e254">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d85189f2-12d8-408c-adef-25ef4930c6d5">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b343b5f8-20ec-447e-9774-70bedea8018a">
+    <name>ТокенСрокЖизни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен срок жизни</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

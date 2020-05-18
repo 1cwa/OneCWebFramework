@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb0b23fc-d40d-4eb5-9ae7-39797af552aa">
+  <producedTypes>
+    <objectType typeId="b0db2ce3-02d3-4657-80c8-03387bb193ce" valueTypeId="3514eb7b-0400-4b58-9323-2d8c34758846"/>
+    <refType typeId="b7e8269d-508c-49dd-ab29-769ed528132f" valueTypeId="e0636efa-5fcb-46bd-8158-4bea09e4b452"/>
+    <selectionType typeId="047822d8-f710-487b-b01e-f7cf66c36860" valueTypeId="82bc7871-6dc8-4cdc-8117-e4c90d7380af"/>
+    <listType typeId="3ee3b7d8-eb3d-437a-955c-352136db3c35" valueTypeId="f5aab469-c4f6-4e56-b93b-c85c88f8fe90"/>
+    <managerType typeId="c34b2e16-cf92-4bbf-aa92-5f647d14ef67" valueTypeId="c5531657-f8ec-4b58-a3e7-64e0fb168cd0"/>
+  </producedTypes>
+  <name>ВебСайт_АлгоритмыПолученияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы получения данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВебСайт_АлгоритмыПолученияДанных.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВебСайт_АлгоритмыПолученияДанных.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВебСайт_АлгоритмыПолученияДанных.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВебСайт_АлгоритмыПолученияДанных.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="1dad385d-1c20-4a31-84f3-35a1866c35a1">
+    <name>ИмяФайлаJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла JSON</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7949c2d9-30b0-4cd1-8d16-3b6bf0f7d51f">
+    <name>АлгоритмПолученияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм получения данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="33124946-0a98-4669-8149-1635b53952b9">
+    <name>ПримерЗагрушка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пример загрушка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4a070cef-305a-40e3-a500-4d421cc0f806">
+    <producedTypes>
+      <objectType typeId="0748a010-5033-4885-8e35-6eae6616a38b" valueTypeId="82101408-aa00-48d3-ab58-102f8431d45e"/>
+      <rowType typeId="232fb2bf-dad3-41e6-849e-ca77ccaf698a" valueTypeId="70e99a42-72cd-4fd8-8182-1445c772f74a"/>
+    </producedTypes>
+    <name>Страницы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страницы</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="8699dc56-d6ac-4eb9-9f3a-3b2f683fe02d">
+      <name>Страница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Страница</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВебСайт</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="dd30bfd0-58f9-4c1b-8917-a14105e38dde">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de889b41-125d-4675-adcc-033e956eda9f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

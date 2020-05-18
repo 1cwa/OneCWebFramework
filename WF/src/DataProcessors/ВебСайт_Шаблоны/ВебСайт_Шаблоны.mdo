@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36983ac0-e5c0-4180-bc68-0a8ccf53edeb">
+  <producedTypes>
+    <objectType typeId="542ebe83-749f-4f75-a5fe-14da116b0a84" valueTypeId="7bf3f536-5d8e-4f17-8fae-e0130d88e97e"/>
+    <managerType typeId="fb383a0e-2908-4234-81a0-45a7fe80102e" valueTypeId="5ff0f998-f6a7-453b-8fca-17d2dd10d27c"/>
+  </producedTypes>
+  <name>ВебСайт_Шаблоны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны веб-сайта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="39a07943-a97e-4ab4-b859-52325a088439">
+    <name>ШаблоныСтраниц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны страниц</value>
+    </synonym>
+  </templates>
+  <templates uuid="21882af9-d7ac-49aa-bd71-082cfb16e015">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

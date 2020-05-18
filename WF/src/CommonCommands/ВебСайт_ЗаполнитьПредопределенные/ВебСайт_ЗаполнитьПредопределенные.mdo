@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52d8e0fc-3304-4adf-9cf5-dc23295c4e38">
+  <name>ВебСайт_ЗаполнитьПредопределенные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить предопределенные</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <modifiesData>true</modifiesData>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

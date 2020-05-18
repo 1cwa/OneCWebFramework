@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="245eca0b-f883-4208-8983-a0e9ab1bf93b">
+  <name>ВебСайт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб сайт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ВебСайт_HTTPСервисы</content>
+  <content>CommonModule.ВебСайт_Шаблонизатор</content>
+  <content>CommonModule.ВебСайт_АвторизацияРегистрация</content>
+  <content>Catalog.ВебСайт_Пользователи</content>
+  <content>HTTPService.ВебСайт</content>
+  <content>Role.ПолныйПраваВебСайт</content>
+  <content>Catalog.ВебСайт</content>
+  <content>DataProcessor.ВебСайт_Шаблоны</content>
+  <content>Catalog.ВебСайт_АлгоритмыПолученияДанных</content>
+  <subsystems>PUG</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01972f39-e007-4665-bd89-46e0565bc2b4">
+  <producedTypes>
+    <objectType typeId="55385169-6926-42f9-bebb-706354992900" valueTypeId="3da950f6-6782-4f32-9b47-b559b2e04cc8"/>
+    <managerType typeId="dfb29510-ebfc-4ba1-bcb2-6a79d84fa777" valueTypeId="9aafcc06-dc8a-4afb-a8ca-fdf89d79470a"/>
+  </producedTypes>
+  <name>АдминистрированиеPUG</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование PUG</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.АдминистрированиеPUG.Form.Форма</defaultForm>
+  <forms uuid="24f3906e-d89b-485c-801e-5f2f0cb64275">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

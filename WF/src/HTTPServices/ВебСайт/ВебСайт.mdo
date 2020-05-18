@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9fecf6f-1252-4aef-ab92-cd825060cffe">
+  <name>ВебСайт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб сайт</value>
+  </synonym>
+  <rootURL>website</rootURL>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="218c37e7-229a-4368-b287-9db0343b761b">
+    <name>v1</name>
+    <synonym>
+      <key>ru</key>
+      <value>V1</value>
+    </synonym>
+    <template>/*</template>
+    <methods uuid="5d474571-d91a-469b-aa69-aaaee2aea7e1">
+      <name>get</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get</value>
+      </synonym>
+      <handler>v1GET</handler>
+    </methods>
+    <methods uuid="6de9a26a-ba50-4f1d-a8e1-1dd8a46c4727">
+      <name>post</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>v1POST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

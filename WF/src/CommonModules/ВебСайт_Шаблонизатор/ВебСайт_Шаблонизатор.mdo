@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff421e51-0da6-44bd-b397-0ffdd8f4b4b6">
+  <name>ВебСайт_Шаблонизатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб сайт шаблонизатор</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e24eca7-8100-4044-bea1-7857c2d78182">
+  <name>ВебСайт_Демо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Веб сайт демо</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonTemplate.ШаблонЛичногоКабинета</content>
+  <content>CommonCommand.ВебСайт_ЗаполнитьПредопределенные</content>
+</mdclass:Subsystem>

@@ -1,0 +1,26 @@
+// app.js
+// Js код для получения exe файла шаблонизатора PUG
+// Нужно установить зависимости, а также pkg. 
+// Запуск получаения exe файла - pkg app.js
+	
+
+const pug = require('pug');
+const fs = require('fs');
+const path = require('path');
+
+let Args = process.argv.slice(2);
+
+if (Args.length < 3) {
+    console.log('Usage: [json data files path] [pug file to render] [html file to generate]');
+    process.exit(0);
+}
+
+const theDirectory = Args[0];
+
+let jsonb = {};
+fs.readdirSync(theDirectory).forEach((file) => {
+    let jsonobj = JSON.parse(fs.readFileSync(path.join(theDirectory, file), 'utf8'));
+    Object.assign(jsonb, jsonobj);
+});
+
+fs.writeFileSync(Args[2], pug.renderFile(Args[1], jsonb));

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7dbdaf6-4228-4172-8302-3017b6baa6ab">
+  <name>ЛичныйКабинет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="58e0b21c-0979-40ca-a761-68daea99ac00"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="14ef0d4a-adeb-4120-b94d-bffa62a0f43a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9dfc7297-b422-41b8-895e-992cf5016412"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="e6508338-74ea-47a1-af9c-57188dc7993f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="92164516-0a9e-4892-880f-bfd67ed58ca2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c87f2e05-3bef-42fb-8a05-49646d0942b6"/>
+  <configurationExtensionCompatibilityMode>8.3.15</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныйПраваВебСайт</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="c3d4343a-c898-49a0-96ea-ffe35e6d61aa">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ВебСайт</subsystems>
+  <subsystems>Subsystem.ВебСайт_Демо</subsystems>
+  <roles>Role.ПолныйПраваВебСайт</roles>
+  <commonTemplates>CommonTemplate.ШаблонЛичногоКабинета</commonTemplates>
+  <commonTemplates>CommonTemplate.PugRender</commonTemplates>
+  <commonTemplates>CommonTemplate.PugRenderCode</commonTemplates>
+  <commonTemplates>CommonTemplate.PugRenderHttp</commonTemplates>
+  <commonTemplates>CommonTemplate.PugRenderHttpCode</commonTemplates>
+  <commonModules>CommonModule.ВебСайт_HTTPСервисы</commonModules>
+  <commonModules>CommonModule.ВебСайт_Шаблонизатор</commonModules>
+  <commonModules>CommonModule.ВебСайт_АвторизацияРегистрация</commonModules>
+  <commonModules>CommonModule.ВебСайт_ШаблонизаторPug</commonModules>
+  <commonModules>CommonModule.ВебСайт_ПовтИспШаблонизаторPug</commonModules>
+  <httpServices>HTTPService.ВебСайт</httpServices>
+  <commonCommands>CommonCommand.ВебСайт_ЗаполнитьПредопределенные</commonCommands>
+  <catalogs>Catalog.ВебСайт</catalogs>
+  <catalogs>Catalog.ВебСайт_Пользователи</catalogs>
+  <catalogs>Catalog.ВебСайт_АлгоритмыПолученияДанных</catalogs>
+  <dataProcessors>DataProcessor.ВебСайт_Шаблоны</dataProcessors>
+  <dataProcessors>DataProcessor.АдминистрированиеPUG</dataProcessors>
+</mdclass:Configuration>

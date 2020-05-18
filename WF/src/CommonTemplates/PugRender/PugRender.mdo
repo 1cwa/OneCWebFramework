@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="849ae393-1c0a-4971-9948-d67dfc57674f">
+  <name>PugRender</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pug render</value>
+  </synonym>
+  <templateType>BinaryData</templateType>
+</mdclass:CommonTemplate>

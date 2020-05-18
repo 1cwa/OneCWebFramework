@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23aaeb0c-7dbf-461e-8991-13787207b191">
+  <name>PUG</name>
+  <synonym>
+    <key>ru</key>
+    <value>PUG</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.АдминистрированиеPUG</content>
+  <content>Catalog.ВебСайт_АлгоритмыПолученияДанных</content>
+  <content>CommonModule.ВебСайт_ШаблонизаторPug</content>
+  <content>CommonModule.ВебСайт_ПовтИспШаблонизаторPug</content>
+  <content>CommonTemplate.PugRender</content>
+  <content>CommonTemplate.PugRenderCode</content>
+  <parentSubsystem>Subsystem.ВебСайт</parentSubsystem>
+</mdclass:Subsystem>
